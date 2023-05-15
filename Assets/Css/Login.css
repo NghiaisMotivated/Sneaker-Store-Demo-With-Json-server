@@ -1,0 +1,151 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    background: url(../Img/Converse-CNCN-Campaign-Talent.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    background: url(../Img/d4c1c804fbf5d31879861440fd660b71.jpg) center;
+    background-size: cover;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.right img {
+    background: fixed;
+    background-size: cover;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.left {
+    margin-left: 10px;
+}
+
+.main {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 3px solid rgb(240, 240, 240, );
+}
+
+.header {
+    margin-top: 50px;
+    color: black;
+    margin-bottom: 35px;
+}
+
+.header h1 {
+    text-align: center;
+    font-weight: 650;
+}
+
+form .email {
+    margin-left: 20px;
+}
+
+form .email .box label h4 {
+    color: black;
+    font-size: 18;
+}
+
+form .email input {
+    width: 350px;
+    height: 40px;
+    border-radius: 5spx;
+    -webkit-border-radius: 5spx;
+    -moz-border-radius: 5spx;
+    -ms-border-radius: 5spx;
+    -o-border-radius: 5spx;
+}
+
+form .email .box i {
+    position: relative;
+    color: black;
+    margin-right: 7px;
+    font-size: 19px;
+}
+
+form .email input::placeholder {
+    font-size: 15px;
+}
+
+form .password {
+    margin-left: 20px;
+}
+
+form .password .box label h4 {
+    color: black;
+    font-size: 18;
+}
+
+form .password input {
+    width: 350px;
+    height: 40px;
+}
+
+form .password .box i {
+    position: relative;
+    color: black;
+    margin-right: 7px;
+    font-size: 19px;
+}
+
+form .password input::placeholder {
+    font-size: 15px;
+}
+
+form .form-check {
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+form p {
+    margin-left: 30;
+    font-size: 15px;
+}
+
+form button {
+    margin-left: 30;
+}
+
+form .buttons p {
+    margin-left: 110px;
+}
+
+form .buttons .others a {
+    margin-right: 10px;
+    font-size: 22px;
+    color: black;
+}

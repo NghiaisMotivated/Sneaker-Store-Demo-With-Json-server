@@ -1,0 +1,279 @@
+{
+    "RetroHigh1": [
+        {
+            "id": 1,
+            "name": "Nike Air Jordan 1 Retro High OG – Heritage",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2022/04/air-jordan-1-retro-high-og-heritage-575441-161-1-600x600.jpg",
+            "links": "retroRed.html"
+        }
+    ],
+    "SmokeGrey": [
+        {
+            "id": 1,
+            "name": "Air Jordan 1 Mid – Light Smoke Grey",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2021/07/air-jordan-1-mid-light-smoke-grey-554725-092-1-600x600.jpg"
+           
+        }
+    ],
+    "MetallicGold": [
+        {
+            "id": 1,
+            "name": "Nike Air Jordan 1 Mid – Metallic Gold",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2021/06/air-jordan-1-mid-metallic-gold-black-DC1419-700-1-600x600.jpg",
+            "links": "metalicGold.html"
+        }
+    ],
+    "BlackToe": [
+        {
+            "id": 1,
+            "name": "Nike Air Jordan 1 Mid SE Union – Black Toe",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2020/09/air-jordan-1-mid-se-union-black-toe-852542-100-bq6931-100-1-600x600.jpg"
+          
+        }
+    ],
+    "chicago": [
+        {
+            "id": 1,
+            "name": "Air Jordan 1 Mid Chicago – Black Toes",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2021/06/air-jordan-1-mid-chicago-toe-554724-069-1.jpg"
+           
+        }
+    ],
+
+    
+
+
+
+    "ChuckTaylorAllStarBlack": [
+        {
+            "id": 1,
+            "name": "Converse Chuck Taylor All Star Classic",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Converse/Classic/Hi%CC%80nh%20chu%CC%89/121186-DRAKE-300x300.jpg",
+            "links": "chuckTaylor.html"
+          
+        }
+    ],
+    "ChuckTaylorAllStarWhite": [
+        {
+            "id": 1,
+            "name": "Converse Chuck Taylor All Star Classic",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Converse/Classic/Hi%CC%80nh%20chu%CC%89/121184-DRAKE-300x300.jpg"
+         
+        }
+    ],
+    "SMYSTORY": [
+        {
+            "id": 1,
+            "name": "CONVERSE CHUCK TAYLOR ALL STAR 1970S MY STORY",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Converse/GIA%CC%80Y%202/170282C/170282C%20-%20drake%20-%201-300x300.jpg"
+            
+        }
+    ],
+    "SVLTGe": [
+        {
+            "id": 1,
+            "name": "CONVERSE CHUCK TAYLOR ALL STAR 1970S VLTGe",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Hinh%20add%20dut%20size/29.5.21/cons/564970C-300x300.jpg"
+            
+        }
+    ],
+    "RECYCLEDRPETCANVAS": [
+        {
+            "id": 5,
+            "name": "CONVERSE CHUCK TAYLOR RECYCLED RPET CANVAS",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Converse/GIA%CC%80Y%202/172681C/172681C_P21-300x300.jpg"
+           
+        }
+    ],
+
+
+
+
+
+
+
+
+
+
+    "VANSOLDSKOOL": [
+        {
+            "id": 1,
+            "name": "VANS OLD SKOOL 36 DX ANAHEIM FACTORY",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Hinh%20add%20dut%20size/VN0A38G2PXC_PL99-300x300.jpg",
+            "links": "vanOldSkool.html"
+        }
+    ],
+    "VANSOLDSKOOL36": [
+        {
+            "id": 1,
+            "name": "VANS OLD SKOOL 36 DX ANAHEIM FACTORY",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Hinh%20add%20dut%20size/28.04.2022/VANS/VN0A38G2OAK_PL14-300x300.jpg"
+
+        }
+    ],
+    "FLASHSKULLS": [
+        {
+            "id": 1,
+            "name": "VANS UA SK8-HI FLASH SKULLS",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Hinh%20add%20dut%20size/28.04.2022/VANS/VN0A4U3C1HJ_PL50-300x300.jpg"
+
+        }
+    ],
+    "ALIENGHOSTS": [
+        {
+            "id": 1,
+            "name": "VANS UA SK8-HI ALIEN GHOSTS",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Hinh%20add%20dut%20size/29.5.21/van/VN0A4BV6TB1-300x300.jpg"
+ 
+        }
+    ],
+    "VANS": [
+        {
+            "id": 1,
+            "name": "VANS UA STYLE 36 FUZZY LACE",
+            "price": "$1200",
+            "img": "https://drake.vn/image/cache/catalog/Vans/SNEAKERS%202/VN0A54F6JDU/VN0A54F6JDU_1-300x300.jpg"
+   
+        }
+    ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    "adidasStanSmithVintage": [
+        {
+            "id": 1,
+            "name": "adidas Stan Smith Vintage – Cloud White Green Gold",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2022/10/adidas-stan-smith-vintage-cloud-white-green-gold-gw1390-600x600.jpg",
+            "links": "adidasStan.html"
+        }
+    ],
+    "GoldLabel": [
+        {
+            "id": 1,
+            "name": "adidas Superstar – Gold Label",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2021/09/adidas-superstar-gold-label-og-600x600.jpg",
+            "links": "cart.html"
+        }
+    ],
+    "Pink": [
+        {
+            "id": 1,
+            "name": "adidas Ultra Boost 20 – Pink",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2022/12/adidas-ultra-boost-20-pink-fv8358-600x600.jpg",
+            "links": "cart.html"
+        }
+    ],
+    "WhiteBlack": [
+        {
+            "id": 1,
+            "name": "adidas Superstar – White Black",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2022/10/adidas-superstar-white-black-gv7946-600x600.jpg",
+            "links": "cart.html"
+        }
+    ],
+    "CoreWhite": [
+        {
+            "id": 1,
+            "name": "Bad Bunny x adidas Response CL – Core White",
+            "price": "$1200",
+            "img": "https://sneakerholicvietnam.vn/wp-content/uploads/2022/09/bad-bunny-x-adidas-response-cl-core-white-gy0102-600x600.jpg",
+            "links": "cart.html"
+        }
+    ],
+
+
+
+
+
+    "Locate": [
+        {
+            "id": 1,
+            "name": "From Rocky Balboa's 2nd House",
+            "pic": "https://planomagazine.com/wp-content/uploads/2021/04/Plano-Magazine-Prized-Kicks-sneaker-store-now-open_feature-1170x556.jpg",
+            "locate": "Rocky Balboa's 2nd House, South Lambert Street, Philadelphia, Pennsylvania, USA"
+        },
+        {
+            "id": 2,
+            "name": "From Rocky Steps, Philadelphia",
+            "pic": "https://www.milwaukeemag.com/wp-content/uploads/2019/04/TrustedKicks.jpg",
+            "locate": "Rocky Steps, Benjamin Franklin Parkway, Philadelphia, Pennsylvania, USA"
+        }
+    ],
+    "lifeStyles": [
+        {
+            "id": 1,
+            "title": "Life Style",
+            "name": "Nike Streetwear: The Complete Breakdown | Life Style Stories",
+            "pic": "https://blog.lifestylesports.com/wp-content/uploads/2018/08/rsz__m6p0347-e1535122141888.jpg",
+            "day": "March 03, 2023"
+        },
+        {
+            "id": 2,
+            "title": "Life Style",
+            "name": "Gonna Fly Now - Run with Rocky Balboa with Converse Chuck Tayler All Star",
+            "pic": "https://images.english.elpais.com/resizer/cGy6ULiRjnMqPmTnUglZ4zqT7Fk=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/5IHV774BFPWDEZGZYA5WS46SOI.jpg",
+            "day": "March 03, 2023"
+        },
+        {
+            "id": 3,
+            "title": "Sports",
+            "name": "Jordan Brand Celebrates Ray Allen’s Second NBA Championship",
+            "pic": "https://sneakernews.com/wp-content/uploads/2013/06/ray-allen-two-championships.jpg",
+            "day": "March 03, 2023"
+        },
+        {
+            "id": 4,
+            "title": "New Release",
+            "name": "Nike Superfly 7 Safari CR7 Youth Soccer Cleats",
+            "pic": "https://wallpapercave.com/wp/qrocc5H.jpg",
+            "day": "April 03, 2023"
+        },
+        {
+            "id": 5,
+            "title": "New Release",
+            "name": "Bury the Light - Vergil's battle theme from Devil May Cry 5 Special Edition",
+            "pic": "https://golfweek.usatoday.com/wp-content/uploads/sites/87/2022/01/nike.jpg?w=740&h=519&crop=1",
+            "day": "March 03, 2023"
+        },
+        {
+            "id": 6,
+            "title": "New Release",
+            "name": "Rick Owens x Converse TURBODRK Chuck Taylor All-Star 70 High Black 172344C",
+            "pic": "https://sneakerbardetroit.com/wp-content/uploads/2021/07/Rick-Owens-Converse-Chuck-70-TURBODRK-Release-Date-1068x750.jpg",
+            "day": "March 03, 2023"
+        }
+    ]
+}

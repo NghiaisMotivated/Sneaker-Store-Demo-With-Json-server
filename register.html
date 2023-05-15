@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets/Css/register.css">
+</head>
+
+<body>
+    <div class="container" >
+        <div class="main">
+            <form action="" method="POST" class="form" id="form-1">
+                <h3 class="heading">User registration section</h3>
+                <p class="desc">"HARD WORK BUILDS A SOLID REPUTATION"</p>
+
+                <div class="spacer"></div>
+
+                <div class="form-group">
+                    <label for="fullname" class="form-label">Full name</label>
+                    <input id="fullname" name="fullname" type="text" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="fullname" class="form-label">Address</label>
+                    <input id="fullname" name="fullname" type="text" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" name="email" type="text" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input id="password" name="password" type="password" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password_confirmation" class="form-label">Confirm your password</label>
+                    <input id="password_confirmation" name="password_confirmation" type="password" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+
+
+
+                <div class="container">
+                    <button class="form-submit" type="submit" onclick="openPopup()">Create</button>
+                    <div class="popup" id="popup">
+
+                        <h2>Success Create Account!</h2>
+                        <p>Your account has been successfully created.</p>
+                        <button type="button" onclick="closePopup()"><a href="accountLogin.html">Move to main page</a></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+       
+    </div>
+    <script src="Assets/JS/Validator.js"></script>
+    <script>
+        // Mong muốn khi sử dụng Validator 
+        Validator({
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#fullname', 'Please Type Your Full Name'), // check user type 
+                Validator.isRequired('#email', 'Please Type Your Email'),
+                Validator.isEmail('#email'),
+                Validator.minLength('#password', 6),
+                Validator.isRequired('#password_confirmation'),
+                Validator.isConfirm('#password_confirmation', () => {
+                    // return value user text 
+                    return document.querySelector('#form-1 #password').value;
+                    // When rule isConfirm run, it will take value input #password and compare the value of user text  
+                }, 'Password Re-Rntered Is Incorrect')
+            ],
+            onSubmit: (data) => {
+                // call api
+                console.log(data);
+            }
+        });
+
+
+
+        // Validator({
+        //     form: '#form-2',
+        //     formGroupSelector: '.form-group',
+        //     errorSelector: '.form-message',
+        //     rules: [
+        //         Validator.isRequired('#email', 'Vui lòng nhập trường này '),
+        //         Validator.isEmail('#email'),
+        //         Validator.minLength('#password', 6),
+        //     ],
+        //     onSubmit: (data) => {
+        //         // call api
+        //         console.log(data);
+        //     }
+        // });
+    </script>
+</body>
+
+</html>

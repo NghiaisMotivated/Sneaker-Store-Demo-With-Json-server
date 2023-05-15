@@ -1,0 +1,524 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Store</title>
+    <link rel="stylesheet"
+        href="Assets/JS/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/Css/Main.css">
+    <link rel="stylesheet" href="Assets/Css/mainConverse.css">
+    <link rel="stylesheet" href="Assets/Css/mainVans.css">
+    <link rel="stylesheet" href="Assets/Css/mainAdidas.css">
+    <link rel="icon" href="Assets/Img/2362563.png">
+</head>
+<style>
+    .h2 {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #d6d6d6;
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+        margin-top: 70px;
+        font-size: 25px;
+    }
+
+    .h2 span {
+        background: #fff;
+        padding: 0 10px;
+    }
+
+    .dropdown li {
+        display: block;
+        
+    }
+
+    .dropdown li a {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .dropdown {
+        width: 200px;
+        background-color: white;
+        position: absolute;
+        z-index: 10;
+        display: none;
+        text-align: center;
+        left: 1100;
+        border: 1px solid black;
+    }
+
+    li:hover ul.dropdown {
+        display: block;
+        
+    }
+</style>
+
+<body>
+    <div class="top">
+        <div class="top-one">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+                    <div class="cart">
+                        <h2 class="cart-title">Your Cart</h2>
+
+                        <!-- content -->
+                        <div class="cart-content">
+                            <!-- test box -->
+                            <div class="cart-box">
+                                <img src="Assets/Img/air-jordan-1-retro-high-og-heritage-575441-161-1-600x600.jpg"
+                                    alt="" class="cart-img">
+                                <div class="detail-box">
+                                    <div class="cart-product-title">Nike Air Jordan 1 Retro High OG – Heritage</div>
+                                    <div class="cart-price">$79.5</div>
+                                    <input style="width: 50px;" type="number" value="1" class="cart-quantity">
+                                </div>
+
+                                <!-- remove cart -->
+                                <i class="fa-solid fa-trash cart-remove"></i>
+                            </div>
+                        </div>
+
+                        <!-- total -->
+                        <div class="total">
+                            <div class="total-title">Total:</div>
+                            <div class="total-price">$0</div>
+                        </div>
+
+                        <!-- Buy button -->
+                        <button type="button" class="btn-buy">Buy Now</button>
+
+                        <!-- cart close-->
+                        <i class="fa-solid fa-x" id="cart-close"></i>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="register-top" style="margin-right: 50px;">
+                        <a href=""> <i class="fa-solid fa-user"></i></a> <a href="">Nghia Le</a>
+                        <ul class="dropdown">
+                            <li>
+                                <div class="user d-flex" style="width: 170px; height: 50px; background-color: white; border-bottom: 1px solid black;">
+                                    <a href="" style="color: black"><i class='bx bxs-user-rectangle' style="font-size: 22px; line-height: 50px;"></i>
+                                        <span>Information user</span></a>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div class="logout d-flex" style="width: 170px; height: 50px; background-color: white;">
+                                    <a href="Login1.html" style="color: black"><i class='bx bx-log-out' style="font-size: 19px; line-height: 50px;"></i><span>
+                                            Log out</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="hotline">
+                        <a href="store.html"><b style="font-family: 'Times New Roman', Times, serif;">Hotline:
+                                0909894382</b></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mid">
+            <div class="logo">
+                <a class="logon" href="index.html">Sneaker Store</a>
+            </div>
+        </div>
+
+        <div id="logoProduct" style="z-index:10;">
+            <ul class="d-flex">
+                <li><a href="nike.html"> NIKE</a></li>
+                <li><a href="converse.html">CONVERSE</a></li>
+                <li><a href="vans.html">VANS</a></li>
+                <li><a href="adidas.html">ADIDAS</a></li>
+                <li><a href="lifestyle.html">LIFE STYLE</a></li>
+                <li><a href="store.html">STORE</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="body" style="z-index:5 ">
+        <img src="Assets/Img/air-jordan-1-mid.jpg" alt="">
+    </div>
+
+
+    <div class="container news" style="align-items: center; margin-bottom: 80px;">
+        <h2 class="h2 mb-5"><span><b style="font-family: 'Helvetica'">NEWS</b></span></h2>
+        <div class="parent d-flex" style="margin-left: 35px;">
+            <div class="parent one">
+                <div class="img-hover-zoom one">
+                    <a href="">INFORMATION</a>
+                </div>
+            </div>
+            <div class="parent two">
+                <div class="img-middle-zoom">
+                    <a href="">SHOP</a>
+                </div>
+            </div>
+            <div class="parent three">
+                <div class="img-hover-zoom two">
+                    <a href="">SERVICES </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container collect">
+        <h2 class="h2 "><span><b style="font-family: 'Helvetica';">WE HAVE THE BEST COLLECTIONS FOR 2023</b></span></h2>
+
+        <div class="products" style="display: flex;">
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-0">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-1">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-2">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-3">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-4">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="products" style="display: flex;">
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-5">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-6">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-7">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-8">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-9">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="products" style="display: flex;">
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-10">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-11">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-12">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-13">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-14">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="products" style="display: flex;">
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-15">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-16">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-17">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-18">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="shop-content">
+                <div class="product-box text-center" id="list-19">
+                    <!-- <img src="Assets/Img/OIP.jfif" alt="" class="product-img">
+                    <h2 class="product-title">Nike Air Jordan 1 Retro High OG – Heritage</h2>
+                    <span class="product-price">$130</span> <br> -->
+                </div>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="footer mt-5 d-flex ">
+        <div class="group-1 col-md-3 mt-5 ">
+            <div class="contact ">
+                <p>CONTACT</p>
+            </div>
+            <div class="address d-flex ">
+                <i class="fa-solid fa-chevron-right "></i>
+                <p>Rocky Balboa, Ive Lole Ribara, Žitište, Serbia</p>
+            </div>
+            <div class="email d-flex ">
+                <i class="fa-solid fa-chevron-right "></i>
+                <p>Email: Kiralovecat090@gmail.com</p>
+            </div>
+            <div class="hotline d-flex ">
+                <i class="fa-solid fa-chevron-right "></i>
+                <p>Hotline: 0909894382</p>
+            </div>
+        </div>
+        <div class="group-2 col-md-2 mt-5 ">
+            <div class="support ">
+                <p class="sp ">SUPPORT</p>
+            </div>
+            <div class="general d-flex ">
+                <i class="fa-solid fa-chevron-right "></i>
+                <p>General Policy</p>
+            </div>
+            <div class="member d-flex ">
+                <i class="fa-solid fa-chevron-right "></i>
+                <p>Membership Offer</p>
+            </div>
+            <div class="find d-flex ">
+                <i class="fa-solid fa-chevron-right "></i>
+                <p>Find Product</p>
+            </div>
+        </div>
+        <div class="group-3 col-md-2 mt-5 ">
+            <div class="company ">
+                <p>ABOUT THE COMPANY</p>
+            </div>
+            <div class="recruitment d-flex ">
+                <i class="fa-solid fa-chevron-right "></i>
+                <p>Recruitment</p>
+            </div>
+            <div class="contact d-flex ">
+                <i class="fa-solid fa-chevron-right "></i>
+                <p>Contact</p>
+            </div>
+            <div class="about d-flex ">
+                <i class="fa-solid fa-chevron-right "></i>
+                <p>About Sneaker Store</p>
+            </div>
+        </div>
+        <div class="group-4 col-md-4 mt-5 ">
+            <p>SIGN UP FOR OFFERS</p>
+            <input type="text " name=" " id=" " placeholder="Type your email here ">
+            <br>
+            <button>SEND AND LOGIN</button>
+            <div class="follow d-flex ">
+                <p>Follow us:</p>
+                <i class="fa-brands fa-facebook "></i><i class="fa-brands fa-instagram "></i><i
+                    class="fa-brands fa-square-twitter "></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="Assets/JS/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js "></script>
+    <script src="Assets/JS/addtocart.js"></script>
+    <script src="Assets/JS/index.js "></script>
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var logoProduct = document.getElementById("logoProduct");
+        var sticky = logoProduct.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                logoProduct.classList.add("sticky")
+            } else {
+                logoProduct.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

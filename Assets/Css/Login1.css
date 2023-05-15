@@ -1,0 +1,249 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        
+        .left {
+            width: 420px;
+            height: 100px;
+        }
+        
+        .logo {
+            text-align: center;
+        }
+        
+        .logo .logon img {
+            width: 160px;
+            margin-top: -55px;
+        }
+        
+        .logo .text p {
+            font-family: 'Brush Script MT';
+            font-size: 40px;
+            margin-top: 0px;
+        }
+        
+        form h5 {
+            font-size: 25px;
+        }
+        
+        .user input {
+            width: 290px;
+            margin-left: 43px;
+        }
+        
+        .user input::placeholder {
+            font-size: 11px;
+            font-weight: bold;
+        }
+        
+        #emailHelp {
+            margin-left: 50px;
+            font-size: 12px;
+        }
+        
+        .pass input {
+            width: 290px;
+            margin-left: 43px;
+        }
+        
+        .pass input::placeholder {
+            font-size: 11px;
+            font-weight: bold;
+        }
+        
+        .right img {
+            width: 100%;
+            box-sizing: border-box;
+            background-size: cover;
+            position: relative;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 617px;
+        }
+        
+        .button {
+            margin-left: 41px;
+        }
+        
+        .button button {
+            margin-right: 14px;
+            width: 62px;
+            height: 30px;
+        }
+        
+        .button .btn.fb {
+            background-color: white;
+            font-size: 17px;
+            border: 1px solid black;
+        }
+        
+        .button .btn.fb i {
+            color: black;
+        }
+        
+        .button .btn.fb:hover {
+            background-color: rgb(35, 93, 201);
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            border: 1px solid rgb(35, 93, 201);
+        }
+        
+        .button .btn.fb:hover i {
+            color: white;
+            transition: 0s;
+            -webkit-transition: 0s;
+            -moz-transition: 0s;
+            -ms-transition: 0s;
+            -o-transition: 0s;
+        }
+        
+        .button .btn.gg {
+            background-color: white;
+            font-size: 15px;
+            border: 1px solid black;
+        }
+        
+        .button .btn.gg i {
+            color: black;
+        }
+        
+        .button .btn.gg:hover {
+            background-color: black;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            border: 1px solid black;
+        }
+        
+        .button .btn.gg:hover i {
+            color: white;
+            transition: 0s;
+            -webkit-transition: 0s;
+            -moz-transition: 0s;
+            -ms-transition: 0s;
+            -o-transition: 0s;
+        }
+        
+        .button .btn.ins {
+            background-color: white;
+            font-size: 18px;
+            border: 1px solid black;
+        }
+        
+        .button .btn.ins i {
+            color: black;
+        }
+        
+        .button .btn.ins:hover {
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            background-color: #fc466b;
+            border: 1px solid #fc466b;
+        }
+        
+        .button .btn.ins:hover i {
+            color: white;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+        }
+        
+        .button .btn.tw {
+            background-color: white;
+            font-size: 17px;
+            border: 1px solid black;
+        }
+        
+        .button .btn.tw i {
+            color: black;
+        }
+        
+        .button .btn.tw:hover {
+            background-color: rgb(98, 147, 238);
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            border: 1px solid rgb(98, 147, 238);
+        }
+        
+        .button .btn.tw:hover i {
+            color: white;
+            transition: 0s;
+            -webkit-transition: 0s;
+            -moz-transition: 0s;
+            -ms-transition: 0s;
+            -o-transition: 0s;
+        }
+        
+        .form-check {
+            margin-left: 41px;
+        }
+        
+        .form-check input {
+            line-height: 14px;
+        }
+        
+        .form-check label {
+            font-size: 14px;
+        }
+        
+        .in {
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        
+        .in:hover {
+            background-color: white;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            border: 1px solid black;
+        }
+        
+        .in a {
+            text-decoration: none;
+        }
+        
+        .in a i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 50px;
+            color: white;
+        }
+        
+        .in a i:hover {
+            color: black;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+        }

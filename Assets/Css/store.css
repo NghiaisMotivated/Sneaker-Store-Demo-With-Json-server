@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bread-crump {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.bread-crump ol li a {
+    text-decoration: none;
+    color: rgb(126, 128, 129);
+}
+
+.bread-crump ol li a:hover {
+    color: black;
+}
+
+.from-1,
+.from-2 {
+    margin-top: 50px;
+}
+
+.from-1 .box,
+.from-2 .box {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+}
+
+.from-1 h3,
+.from-2 h3 {
+    color: white;
+    line-height: 50px;
+    font-family: "Arial";
+    font-size: 27;
+}
+
+.section-1 {
+    margin-right: 60px;
+}
+
+.from-1 img,
+.from-2 img {
+    width: 750px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 450px;
+}
+
+.from-2 {
+    margin-top: 100px;
+}
+
+.from-1 p,
+.from-2 p {
+    margin-top: 18px;
+}
+
+.from-1 a,
+.from-2 a {
+    text-decoration: none;
+}
+
+.thanks {
+    text-align: center;
+}
+
+.container .thanks .you {
+    font-family: 'Brush Script MT';
+    font-size: 150px;
+}
+
+.container .thanks .kira {
+    font-size: 20px;
+}
